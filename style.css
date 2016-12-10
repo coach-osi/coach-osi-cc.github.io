@@ -21,8 +21,8 @@ footer .row {
   color: White;
 }
 
-header p:hover {
-  color: #E30E0E;
+header nav p a:hover {
+  color: E30E0E;
 }
 
 header h1 {
@@ -35,10 +35,15 @@ header nav {
   justify-content: flex-end;
 }
 
+nav p a {
+  color: white;
+}
+
 header p {
   padding: 0 20px;
   margin: 0;
 }
+
 
 .jumbotron {
   display: flex;
